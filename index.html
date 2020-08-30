@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>PomsTimer</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+		<h1>PomsTimer</h1>
+		<h2>
+			A simple and attractive pomodoro timer for people who want to be productive
+		</h2>
+
+		
+		<!-- This is the HTML code for the main work timer-->
+		<div id="pomodoro">
+			<h2 class="workTimerLabel"><u>Work Timer</u></h2>
+			<div id="pomodoro-clock">
+				<span id = "minutes"></span>
+				<span id="separator">:</span>
+				<span id = "seconds"></span>
+			</div>
+			<div id="pomodoro-functions">
+				<button id ="start">Start</button>
+				<button id ="pause">Pause</button>
+				<button id ="stop">Stop</button>
+			</div>
+		</div>
+		
+		<!-- This is the HTML code for the break timer-->
+		<div id = "break-pomodoro">
+			<h2 class="breakTimerLabel"><u>Break Timer</u></h2>
+			<div id="break-pomodoro-clock">
+				<span id="break-minutes"></span>
+				<span id="break-separator">:</span>
+				<span id="break-seconds"></span>
+			</div>
+			<div id="break-pomodoro-functions">
+				<button id="break-start">Start</button>
+				<button id="break-pause">Pause</button>
+				<button id="break-stop">Stop</button>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<p>Made by Kavin Ganeshkumar for the CS50x Final Project</p>
+		</div>
+		
+		<script src="worktimer.js"></script>
+		<script src="breaktimer.js"></script>
+	</body>
+	</html>

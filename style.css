@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body {
+	background: #ff926a;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;	
+	color: #fff7f2;
+	font-size: 65px;
+	text-align: center;
+	line-height: 2px;
+	padding-top: 20px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #e5dbce;
+	text-align: center;
+}
+
+.footer {
+	display: block;
+	width: 100%;
+	font-family: 'Fira Sans', sans-serif;
+	background: #ffadaa;
+	position: absolute;
+	bottom: 0;
+}
+
+p {
+	padding-left: 20px;
+}
+
+
+#pomodoro {
+	float: left;
+	text-align: center;
+	margin-left: 100px;
+	padding-top: 100px;
+}
+
+#break-pomodoro {
+	float: right;
+	text-align: center;
+	margin-right: 100px;
+	padding-top: 100px;
+}
+.breakTimerLabel {
+	font-family: 'Open Sans', sans-serif;
+	color: #600300;
+	font-size: 45px;
+
+}
+
+.workTimerLabel {
+	font-family: 'Open Sans', sans-serif;
+	color: #600300;
+	font-size: 45px;
+
+}
+
+#pomodoro-clock {
+	font-family: 'Oswald', sans-serif;
+	font-size: 100px;
+}
+
+#break-pomodoro-clock {
+	font-family: 'Oswald', sans-serif;
+	font-size: 100px;
+}
+
+#start {
+	font-family: 'Open Sans', 'sans-serif';
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	background-color: #2ecc71;
+	box-shadow: 0px 5px 0px 0px #15B358;
+  }
+  
+#start:hover {
+	background-color: #48E68B;
+  }
+
+#pause {
+	font-family: 'Open Sans', 'sans-serif';
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	background-color: #55acee;
+  	box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+#pause:hover {
+	background-color: #6FC6FF;
+}
+
+#stop {
+	font-family: 'Open Sans', 'sans-serif';
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	background-color: #e74c3c;
+  	box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+#stop:hover {
+	background-color: #FF6656;
+}
+
+#break-pomodoro-functions {
+	font-family: 'Open Sans', 'sans-serif';
+}
+#break-start {
+	font-family: 'Open Sans', 'sans-serif';
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	background-color: #2ecc71;
+	box-shadow: 0px 5px 0px 0px #15B358;
+  }
+  
+#break-start:hover {
+	background-color: #48E68B;
+  }
+
+#break-pause {
+	font-family: 'Open Sans', 'sans-serif';
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	background-color: #55acee;
+  	box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+#break-pause:hover {
+	background-color: #6FC6FF;
+}
+
+#break-stop {
+	font-family: 'Open Sans', 'sans-serif';
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	background-color: #e74c3c;
+  	box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+#break-stop:hover {
+	background-color: #FF6656;
+}
+
